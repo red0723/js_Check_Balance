@@ -61,7 +61,20 @@ function GetData() {
         document.getElementById('bt2').innerHTML = 'Attribute Operators are aligned = ' + bt2;
         document.getElementById('bt3').innerHTML = 'Curly Braces are aligned = ' + bt3;
         document.getElementById('bt4').innerHTML = 'Square Brackets are aligned = ' + bt4;
+        document.getElementById('answer').innerHTML = '';
     } else {
+        document.getElementById('bb1').innerHTML = '';
+        document.getElementById('eb1').innerHTML = '';
+        document.getElementById('bb2').innerHTML = '';
+        document.getElementById('eb2').innerHTML = '';
+        document.getElementById('bb3').innerHTML = '';
+        document.getElementById('eb3').innerHTML = '';
+        document.getElementById('bb4').innerHTML = '';
+        document.getElementById('eb4').innerHTML = '';
+        document.getElementById('bt1').innerHTML = '';
+        document.getElementById('bt2').innerHTML = '';
+        document.getElementById('bt3').innerHTML = '';
+        document.getElementById('bt4').innerHTML = '';
         document.getElementById('answer').innerHTML = "Not enough characters to validate balance.";
     }
 }
